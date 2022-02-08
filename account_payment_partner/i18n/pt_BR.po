@@ -9,35 +9,39 @@ msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-23 03:38+0000\n"
-"PO-Revision-Date: 2017-11-23 03:38+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"PO-Revision-Date: 2022-02-03 21:20-0400\n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/"
 "teams/23907/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: account_payment_partner
 #: model_terms:ir.ui.view,arch_db:account_payment_partner.account_payment_mode_form
+#, fuzzy
 msgid "# of chars"
-msgstr ""
+msgstr "# de chars"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__show_bank_account_chars
+#, fuzzy
 msgid "# of digits for customer bank account"
-msgstr ""
+msgstr "# de dígitos para conta bancária do cliente"
 
 #. module: account_payment_partner
 #: model_terms:ir.ui.view,arch_db:account_payment_partner.report_invoice_payment_mode
 msgid "<strong>Bank Account:</strong>"
-msgstr ""
+msgstr "<strong>Conta Bancária:</strong>"
 
 #. module: account_payment_partner
 #: model_terms:ir.ui.view,arch_db:account_payment_partner.report_invoice_payment_mode
+#, fuzzy
 msgid "<strong>Payment Mode:</strong>"
-msgstr ""
+msgstr "<strong>Modo de pagamento:</strong>"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,help:account_payment_partner.field_account_bank_statement_line__bank_account_required
@@ -47,6 +51,8 @@ msgid ""
 "Activate this option if this payment method requires you to know the bank "
 "account number of your customer or supplier."
 msgstr ""
+"Ative essa opção se esse método de pagamento exigir que você saiba o número "
+"da conta bancária do seu cliente ou fornecedor."
 
 #. module: account_payment_partner
 #: model:ir.model.fields,help:account_payment_partner.field_account_bank_statement_line__partner_bank_id
@@ -56,23 +62,27 @@ msgid ""
 "account if this is a Customer Invoice or Vendor Credit Note, otherwise a "
 "Partner bank account number."
 msgstr ""
+"Número de Conta do Bando para o qual a fatura será paga. Uma conta de banco "
+"de uma Companhia se é uma fatura ao contumidor ou Nota de Crédito de "
+"Fornecedor, de outra forma, um número de conta de um Parceiro."
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__bank_account_required
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_move__bank_account_required
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment__bank_account_required
 msgid "Bank Account Required"
-msgstr ""
+msgstr "Conta Bancária Necessária"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__show_bank_account_from_journal
+#, fuzzy
 msgid "Bank account from journals"
-msgstr ""
+msgstr "Conta bancária de diários"
 
 #. module: account_payment_partner
 #: model:ir.model,name:account_payment_partner.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contato"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_res_partner__customer_payment_mode_id
@@ -87,17 +97,18 @@ msgstr "Modo de Pagamento do Cliente"
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__display_name
 #: model:ir.model.fields,field_description:account_payment_partner.field_res_partner__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Exibir Nome"
 
 #. module: account_payment_partner
 #: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__first
+#, fuzzy
 msgid "First n chars"
-msgstr ""
+msgstr "Primeiro n chars"
 
 #. module: account_payment_partner
 #: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__full
 msgid "Full"
-msgstr ""
+msgstr "Completo"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_invoice_report__id
@@ -106,22 +117,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__id
 #: model:ir.model.fields,field_description:account_payment_partner.field_res_partner__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: account_payment_partner
 #: model:ir.model,name:account_payment_partner.model_account_invoice_report
 msgid "Invoices Statistics"
-msgstr ""
+msgstr "Estatísticas das Faturas"
 
 #. module: account_payment_partner
 #: model:ir.model,name:account_payment_partner.model_account_move
 msgid "Journal Entry"
-msgstr ""
+msgstr "Lançamento de Diário"
 
 #. module: account_payment_partner
 #: model:ir.model,name:account_payment_partner.model_account_move_line
 msgid "Journal Item"
-msgstr ""
+msgstr "Item do Diário"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_invoice_report____last_update
@@ -130,30 +141,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode____last_update
 #: model:ir.model.fields,field_description:account_payment_partner.field_res_partner____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Modificada pela última vez"
 
 #. module: account_payment_partner
 #: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__last
+#, fuzzy
 msgid "Last n chars"
-msgstr ""
+msgstr "Último n chars"
 
 #. module: account_payment_partner
 #: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__no
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #. module: account_payment_partner
 #: code:addons/account_payment_partner/tests/test_account_payment_partner.py:0
-#, python-format
+#, fuzzy, python-format
 msgid "No Chart of Account Template has been defined !"
-msgstr ""
+msgstr "Nenhum modelo de gráfico de conta foi definido !"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__partner_bank_filter_type_domain
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_move__partner_bank_filter_type_domain
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment__partner_bank_filter_type_domain
+#, fuzzy
 msgid "Partner Bank Filter Type Domain"
-msgstr ""
+msgstr "Domínio do tipo de filtro do banco parceiro"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__payment_mode_id
@@ -169,34 +182,36 @@ msgstr "Modo de Pagamento"
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__payment_mode_filter_type_domain
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_move__payment_mode_filter_type_domain
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment__payment_mode_filter_type_domain
+#, fuzzy
 msgid "Payment Mode Filter Type Domain"
-msgstr ""
+msgstr "Domínio do tipo tipo filtro do modo de pagamento"
 
 #. module: account_payment_partner
 #: model:ir.model,name:account_payment_partner.model_account_payment_mode
 msgid "Payment Modes"
-msgstr ""
+msgstr "Modos de Pagamento"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_invoice_report__payment_mode_id
 msgid "Payment mode"
-msgstr ""
+msgstr "Modo de Pagamento"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__refund_payment_mode_id
+#, fuzzy
 msgid "Payment mode for refunds"
-msgstr ""
+msgstr "Modo de pagamento para reembolsos"
 
 #. module: account_payment_partner
 #: model_terms:ir.ui.view,arch_db:account_payment_partner.view_move_line_form
 msgid "Payments"
-msgstr ""
+msgstr "Pagamentos"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__partner_bank_id
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_move__partner_bank_id
 msgid "Recipient Bank"
-msgstr ""
+msgstr "Banco Destinatário"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,help:account_payment_partner.field_res_partner__customer_payment_mode_id
@@ -212,18 +227,21 @@ msgstr "Selecione o modo de pagamento padrão para este fornecedor."
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__show_bank_account
+#, fuzzy
 msgid "Show bank account"
-msgstr ""
+msgstr "Mostrar conta bancária"
 
 #. module: account_payment_partner
 #: model_terms:ir.ui.view,arch_db:account_payment_partner.account_payment_mode_form
+#, fuzzy
 msgid "Show bank account in invoice report"
-msgstr ""
+msgstr "Mostrar conta bancária em relatório de fatura"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,help:account_payment_partner.field_account_payment_mode__show_bank_account
+#, fuzzy
 msgid "Show in invoices partial or full bank account number"
-msgstr ""
+msgstr "Mostrar nas faturas número parcial ou completo da conta bancária"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,field_description:account_payment_partner.field_res_partner__supplier_payment_mode_id
@@ -233,26 +251,33 @@ msgstr "Modo de Pagamento do Fornecedor"
 
 #. module: account_payment_partner
 #: model:ir.model.fields,help:account_payment_partner.field_account_payment_mode__refund_payment_mode_id
+#, fuzzy
 msgid ""
 "This payment mode will be used when doing refunds coming from the current "
 "payment mode."
 msgstr ""
+"Esta modalidade de pagamento será usada ao fazer reembolsos provenientes da "
+"modalidade de pagamento atual."
 
 #. module: account_payment_partner
 #: code:addons/account_payment_partner/models/account_payment_mode.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "You cannot change the Company. There exists at least one Journal Entry with "
 "this Payment Mode, already assigned to another Company."
 msgstr ""
+"Você não pode mudar a Companhia. Existe pelo menos um Diário de Entrada com "
+"esta Modalidade de Pagamento, já atribuído a outra Empresa."
 
 #. module: account_payment_partner
 #: code:addons/account_payment_partner/models/account_payment_mode.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "You cannot change the Company. There exists at least one Journal Item with "
 "this Payment Mode, already assigned to another Company."
 msgstr ""
+"Você não pode mudar a Companhia. Existe pelo menos um Item de Diário com "
+"esta Modalidade de Pagamento, já atribuído a outra Empresa."
 
 #~ msgid "Invoice"
 #~ msgstr "Fatura"
